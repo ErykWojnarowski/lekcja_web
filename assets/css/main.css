@@ -29,6 +29,46 @@ img {
   height: 100%;
 
 }
+.about_header {
+  height: 30%;
+  width: 100%;
+  color: white;
+  background-image: url("./assets/img/woman.jpg");
+}
+#blue_about{
+  display: grid;
+  grid-template-columns: repeat(8,12.5%);
+  grid-template-rows: 100%;
+  height: 20%;
+  background-color: rgb(11, 199, 206);
+}
+#main_about {
+ display:grid;
+ grid-template-columns: 50% 50%;
+ height: 25%;
+ background-color: rgb(241, 241, 241);
+}
+
+#about_main{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#need_about {
+  height: 25%;
+  
+}
+
+
+#aut {
+  height: 25%;
+  width: 30%;
+}
+#img_blue {
+  display: flex;
+  height: 80%;
+  width: 60%;
+  justify-content: flex-end;
+}
+
 
 a:link {
   text-decoration: none;
@@ -168,16 +208,15 @@ footer a:hover {
   padding-bottom: 5%;
   
 }
-#form-down{
 
-  
-}
 button {
   background-color: lightseagreen;
   border: none;
   color: white;
-  height: 12%;
+  padding: 15px;
   grid-area: 2/2/3/3;
+  width: auto;
+  height: auto;
  
 }
 textarea {
@@ -191,9 +230,7 @@ input[type=text] {
   border: none;
   padding: 10px;
 }
-#name {
-  
-}
+
 #title {
  width: auto;
  
@@ -209,10 +246,6 @@ input[type=text] {
   padding: 2%;
   width: 100%;
   
-}
-#button {
-  width: auto;
-  height: auto;
 }
 
 
