@@ -4,14 +4,14 @@ body{
   height: 100%; 
   margin:0px;
   padding: 0%;
-  font-family: 'myfirstfont';
+  font-family: "custom";
 }
 header {
-  font-family: myfirstfont;
+  font-family: "custom";
   background: linear-gradient(180deg, rgba(236,236,236,1) 35%, rgb(255, 255, 255) 100%);
 }
 footer {
-  font-family: myfirstfont;
+  font-family: "custom";
   background-color: black;
   height: auto;
   width: 100%;
@@ -42,7 +42,7 @@ img {
   display: flex;
 }
 #blue_about #string_about {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "custom";
   display: flex;
  justify-content: flex-start;
    align-items: center;
@@ -58,7 +58,7 @@ img {
 }
 
 #about_main{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "custom";
 }
 #need_about {
   height: 20%;
@@ -319,7 +319,10 @@ justify-content: center;
 {
   footer 
   {
-    font-size: 40%;
+    font-size: 55%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+
   }
   header
   {
@@ -390,6 +393,7 @@ justify-content: center;
   footer 
   {
     font-size: 60%;
+    
   }
   header
   {
@@ -459,10 +463,7 @@ justify-content: center;
   
 }
 @font-face {
-  @font-face {
-    font-family: myfirstfont;
-    font-style: normal;
-    font-weight: normal;
-    src: local('Bariol Regular'), url('bariol_regular-webfont.woff') format('woff');
-    }
+    font-family: "custom";
+    src: url(bariol.woff) format("woff");
+    
 }
